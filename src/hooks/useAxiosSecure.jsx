@@ -9,7 +9,7 @@ const useAxiosSecure = () => {
  const navigate = useNavigate()
 
  const axiosSecure = axios.create({
-    baseURL: 'https://yoga-master-server-slrk.onrender.com/',
+    baseURL: 'http://localhost:5000/',
     
   });
 

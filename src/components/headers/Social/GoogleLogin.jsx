@@ -24,7 +24,7 @@ const GoogleLogin = () => {
                 };
                 
                 if(user.email && user.displayName){
-                    return axios.post('https://yoga-master-server-slrk.onrender.com/new-user', userImp).then(() =>{
+                    return axios.post('http://localhost:5000/new-user', userImp).then(() =>{
                         navigate('/');
                         return "Registration Sucessfull"
                     }).catch((err) =>{

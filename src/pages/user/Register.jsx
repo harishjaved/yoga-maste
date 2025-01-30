@@ -40,7 +40,7 @@ const Register = () => {
 
                     if (user.email && user.displayName) {
                         return axios
-                            .post('https://yoga-master-server-slrk.onrender.com/new-user', userImp)
+                            .post('http://localhost:5000/new-user', userImp)
                             .then(() => {
                                 setError("");
                                 navigate('/');

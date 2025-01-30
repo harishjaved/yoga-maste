@@ -5,13 +5,13 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAg1od8CVwcFaY-yEmD3LboHYfXxlNrtDM",
-  authDomain: "yoga-master-ca24c.firebaseapp.com",
-  projectId: "yoga-master-ca24c",
-  storageBucket: "yoga-master-ca24c.firebasestorage.app",
-  messagingSenderId: "1036234948228",
-  appId: "1:1036234948228:web:56be2c67db4c808fd6ccd1"
+  apiKey: "AIzaSyAJNXVAOD_ra_qw3HKGN99csRDFfkFUW9w",
+  authDomain: "yoga-master-demo-98764.firebaseapp.com",
+  projectId: "yoga-master-demo-98764",
+  storageBucket: "yoga-master-demo-98764.appspot.com",
+  messagingSenderId: "550723804525",
+  appId: "1:550723804525:web:d085d3b91362beff114e64"
 };
 
 // Initialize Firebase
-export const app = initializeApp(firebaseConfig);
+ export const app = initializeApp(firebaseConfig);
