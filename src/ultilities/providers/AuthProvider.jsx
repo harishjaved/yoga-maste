@@ -84,7 +84,7 @@ const AuthProvider = ({children}) => {
             setUser(user)
 
             if(user){
-                axios.post('http://localhost:5000/api/set-token', {email: user.email, name: user.displayName})
+                axios.post('hps://yoga-master-server-slrk.onrender.com/api/set-token', {email: user.email, name: user.displayName})
                 .then((data) => {
                     if(data.data.token){
                         localStorage.setItem('token', data.data.token);

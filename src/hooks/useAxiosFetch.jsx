@@ -5,7 +5,7 @@ import axios, { Axios } from "axios"
 
 const useAxiosFetch = () => {
     const axiosInstance = axios.create({
-        baseURL: 'http://localhost:5000/',
+        baseURL: 'hps://yoga-master-server-slrk.onrender.com/',
         
       });
 
